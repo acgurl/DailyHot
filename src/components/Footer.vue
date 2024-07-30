@@ -9,13 +9,16 @@
         @click="jumpLink(packageJson.github)"
       />
     </div>
-    <n-text
-      v-if="icp"
-      :depth="3"
-      class="icp"
-      v-html="icp"
-      @click="jumpLink('https://beian.miit.gov.cn/')"
-    />
+    <a href="https://beian.miit.gov.cn/" 
+       rel="noopener external nofollow noreferrer noopener" 
+       target="_blank">
+       <span>豫ICP备2023024848号</span>            
+    </a>
+    <a href="https://www.beian.gov.cn/portal/registerSystemInfo" 
+       rel="noopener external nofollow noreferrer noopener" 
+       target="_blank">
+       <span>豫公网安备41112102000178号</span>            
+    </a>
   </footer>
 </template>
 
